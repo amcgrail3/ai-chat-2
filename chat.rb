@@ -2,7 +2,7 @@ require "ai-chat"
 require "dotenv/load"
 require "amazing_print"
 c = AI::Chat.new
-
+ 
 c.model = "o4-mini"
 c.web_search = true
 c.system("You are an expert nutritionist. Do your best to estimate the macros and calories in the provided images. Search the web if it will help. Additionally, please give an estimate of how accurate you think this estimate is")
